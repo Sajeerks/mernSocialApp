@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon backend/server.js",
-    "heroku-postbuild" :"NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend  && nom run build --prefix frontend"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend  && nom run build --prefix frontend"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,7 @@
     "jsonwebtoken": "^9.0.0",
     "mongodb": "4.1",
     "mongoose": "^7.0.3",
+    "node": "^20.1.0",
     "nodemailer": "^6.9.1",
     "nodemon": "^2.0.22"
   }
