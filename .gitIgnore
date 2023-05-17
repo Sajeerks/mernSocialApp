@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/forntend//node_modules
+/forntend/.pnp
+/forntend/.pnp.js
+
+# testing
+/forntend//coverage
+
+# production
+/forntend/build
+
+# misc
+/forntend/.DS_Store
+/forntend/.env.local
+/forntend/.env.development.local
+/forntend/.env.test.local
+/forntend/.env.production.local
+
+/forntend/npm-debug.log*
+/forntend/yarn-debug.log*
+/forntend/yarn-error.log*
+/node_modules
+/config/config.env

@@ -1,0 +1,50 @@
+
+
+
+.loaderF_for_loading{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(178, 156, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cirleOfLoader{
+    height: 10vmax;
+    width: 10vmax;
+    border: none;
+    border-top: 2px solid rgb(60, 43, 10);
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+}
+
+
+.loader_title{
+    font: italic small-caps bold 25px/30px Roboto;
+    animation: blinker 3s ease-in-out infinite;
+
+}
+
+@keyframes blinker{
+    0% {
+      opacity: 10%;
+    }
+    50% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 10%;
+    }
+  }
+
+
+@keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
